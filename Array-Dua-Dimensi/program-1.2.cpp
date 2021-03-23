@@ -22,8 +22,8 @@ int main()
     {
         for (j = 0; j < kolom; j++)
         {
-            cout << "matriks[" << baris + 1 << "][" << kolom + 1 << "] = ";
-            cin >> matriks[baris][kolom];
+            cout << "matriks[" << i + 1 << "][" << j + 1 << "] = ";
+            cin >> matriks[i][j];
         }
         cout << endl;
     }
@@ -31,10 +31,10 @@ int main()
     // Tampilkan elemen Array secara Row Major Order
 
     cout << "Isi array : \n";
-    for (baris = 0; baris < 3; baris++)
+    for (i = 0; i < baris; i++)
     {
-        for (kolom = 0; kolom < 4; kolom++)
-            cout << "  " << matriks[baris][kolom];
+        for (j = 0; j < kolom; j++)
+            cout << "  " << matriks[i][j];
         cout << endl;
     }
 }
