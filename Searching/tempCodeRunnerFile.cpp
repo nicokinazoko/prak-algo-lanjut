@@ -1,1 +1,2 @@
-(i + j) / 2
+
+    int i, nilaiCari;
